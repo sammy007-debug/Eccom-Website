@@ -31,11 +31,11 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: #fff;
 }
 
 p {
-  color: #555;
+  color: #fff;
 }
 
 .container {
@@ -83,7 +83,11 @@ p {
 }
 
 .header {
-  background: radial-gradient(#fff, #ffd6d6);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
 }
 
 .header .row {
@@ -163,7 +167,11 @@ col-4 p {
 /*-----Offers----*/
 
 .offer {
-  background: linear-gradient(#fff, #ffd6d6);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
   margin-top: 80px;
   padding: 30px 0;
 }
@@ -173,7 +181,7 @@ col-4 p {
 }
 
 small {
-  color: #555;
+  color: #fff;
 }
 
 /*------- Testimonials -------*/
